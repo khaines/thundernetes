@@ -53,7 +53,7 @@ var (
 			Name:      "gameservers_current_state",
 			Help:      "Gameserver gauges by state",
 		},
-		[]string{"BuildName", "status"},
+		[]string{"BuildName", "state"},
 	)
 	AllocationsCounter = registry.NewCounterVec(
 		prometheus.CounterOpts{
